@@ -1,16 +1,3 @@
-/*********************************************************************************************************/
-/*																									     */
-/*		Authors:          Yang Li                   Xuanmeng Zhang					                     */
-/*		Date:             June 28, 2018                                                                  */
-/*		Description:      This program design our own allocator by using memory pool.During              */
-/*                        program execution, memory is not returned to the system but is returned        */
-/*						  to our memory pool. The advantage of this is that when we next apply for       */
-/*						  memory, we can apply directly to the memory pool instead of applying to        */
-/*						  the system. In this way, we can reduce memory fragmentation and speed up       */ 
-/*						  memory allocation.															 */
-/*                                                                                                       */
-/*********************************************************************************************************/
-
 #pragma once
 #include <climits>
 #include <cstddef>
